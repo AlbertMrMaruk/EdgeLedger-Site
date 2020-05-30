@@ -1,0 +1,41 @@
+/* NAVBAR */
+
+/* START SECTION */
+/* what section */
+#what{
+  min-height: 275px;
+}
+.items{
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem 25rem;
+}
+.item{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  text-align: left;
+}
+/* WHO SECTION */
+#who{
+  display: flex;
+  min-height: 420px;
+  flex-basis: 100%;
+}
+/* CLIENTS SECTION */
+#clients{
+  padding-top: 1rem;
+  min-height: 280px;
+}
+.icons{
+  display: flex;
+  padding: 0;
+  margin: 0 25rem;
+}
+.icons div img{
+  width: 60%;
+}
+/* CONTACT SECTION */
+.map{
+  flex: 2;
+}

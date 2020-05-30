@@ -1,0 +1,44 @@
+/* NAVBAR */
+#navbar{
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#navbar ul{
+  margin-top: 1rem;
+}
+/* START SECTION */
+.start{
+  padding: 0 2rem;
+}
+.items{
+  display: flex;
+  flex-direction: column;
+
+}
+.item{
+  flex: 1;
+  margin: 0.5rem 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  text-align: left;
+}
+/* WHO SECTION */
+.img-col{
+  display: none;
+}
+/* CLIENTS SECTION */
+#clients{
+  padding-top: 1rem;
+}
+.last {
+  display: none;
+}
+.icons div img{
+  width: 80%;
+}
+/* CONTACT SECTION */
+.map{
+  display: none;
+}
